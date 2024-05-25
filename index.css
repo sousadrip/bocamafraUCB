@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav.container-fluid {
+    background-color: #007bff;
+    padding: 1rem 0;
+}
+
+nav.container-fluid ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.container-fluid ul li {
+    margin: 0 1rem;
+}
+
+nav.container-fluid ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav.container-fluid ul li a:hover {
+    text-decoration: underline;
+}
+
+main.container {
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 600px;
+  
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+hgroup h2 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+hgroup h3 {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin: 1rem 0;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+figcaption a {
+    font-size: 0.9rem;
+    color: #007bff;
+}
+
+section[aria-label="Subscribe example"] {
+    background-color: #e9ecef;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+section[aria-label="Subscribe example"] hgroup h2 {
+    color: #007bff;
+}
+
+section[aria-label="Subscribe example"] hgroup h3 {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+section[aria-label="Subscribe example"] form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+section[aria-label="Subscribe example"] form input,
+section[aria-label="Subscribe example"] form button {
+    flex: 1 1 45%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+section[aria-label="Subscribe example"] form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+section[aria-label="Subscribe example"] form button:hover {
+    background-color: #0056b3;
+}
+
+footer.container {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer.container small a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer.container small a:hover {
+    text-decoration: underline;
+}
